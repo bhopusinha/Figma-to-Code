@@ -1,0 +1,392 @@
+.main-content {
+  padding: 2rem 5rem;
+}
+
+.intro {
+  width: 50vw;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.badge {
+  width: 22vw;
+  font-size: 1.2rem;
+  color: #666;
+  border: 2px solid rgb(233, 161, 132);
+  display: block;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.intro h1 {
+  font-size: 4rem;
+  color: #3d0e85;
+  margin-bottom: 1rem;
+  text-align: start;
+}
+
+.intro h1 span {
+  color: #8e44ad;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.intro .badges {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.badges span {
+  font-size: 1rem;
+  color: #b13301cb;
+  background-color: #f9f2e1;
+  padding: 0.8rem 1rem;
+  border-radius: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.enroll-now {
+  padding: 1.75rem 3rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  background-color: #e30fce;
+  color: #fff;
+}
+
+.know-more {
+  padding: 1.75rem 3rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  background-color: #fff;
+  color: #e30fce;
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 0;
+  text-align: center;
+  background-color: #fdf6ff;
+}
+
+.highlight {
+  flex: 1;
+  margin: 1rem;
+}
+
+.highlight h3 {
+  font-size: 2rem;
+  color: #3d0e85;
+}
+
+.highlight p {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.course-curriculum {
+  background-color: #fdf6ff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.course-curriculum h4 {
+  width: 25vw;
+  padding: 5px;
+  border-radius: 25px;
+  border: 1px solid rgb(197, 140, 150);
+  margin: 0 auto;
+}
+
+.course-curriculum h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6a0dad;
+  margin-bottom: 2rem;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-item {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 50px 50px 0px 0px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-item h3 {
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.course-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.view-curriculum {
+  background-color: #e4e4e4;
+  color: #e12ee1;
+  padding: 1.3rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.view-curriculum:hover {
+  background-color: #d4a6ff;
+}
+
+.refund-offer {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 40px 0px;
+}
+
+.refund-offer h2 {
+  font-size: 2.6rem;
+  color: #3d0e85;
+  margin-bottom: 1rem;
+}
+
+.refund-offer h2 span {
+  color: #e53935;
+}
+
+.refund-info {
+  width: 20vw;
+  margin: auto;
+  padding: 42px 100px;
+  border-radius: 30px;
+  background-color: #4949fcc2;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.offer-countdown {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.companies {
+  background-color: rgb(243, 243, 228);
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 8px 0px 50px 0px;
+}
+
+.companies h2 {
+  font-size: 3rem;
+  color: #3d0e85;
+  margin-bottom: 1.5rem;
+}
+
+.companies h2 span {
+  color: #8e44ad;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.company-logos .logo {
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  margin: 0.2rem;
+  border-radius: 40px;
+}
+
+.certificates-internships {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.certificates-internships h2 {
+  font-size: 2.7rem;
+  color: #3d0e85;
+  margin-bottom: 1.5rem;
+}
+
+.certificates-internships h2 span {
+  color: #8e44ad;
+}
+
+.certificates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.certificate-image {
+  background-color: #ddd;
+  padding: 2rem;
+  text-align: center;
+}
+
+.certificate-text {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 1rem 3rem;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .highlight,
+  .company-logos,
+  .certificates {
+    flex-direction: column;
+  }
+
+  .certificates {
+    gap: 1rem;
+  }
+
+  .highlight {
+    margin: 2rem 0;
+  }
+
+  .company-logos {
+    gap: 1rem;
+  }
+
+  .company-logos .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .certificate-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .curriculum-button {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .course-item {
+    flex-direction: column;
+  }
+
+  .refund-info {
+    width: 40vw;
+    font-size: 1.1rem;
+  }
+
+  .offer-countdown {
+    font-size: 0.7rem;
+  }
+
+  .course-curriculum h4 {
+    width: 70vw;
+  }
+
+  .badge {
+    width: 54vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  .intro h1 {
+    font-size: 1.75rem;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .course-item {
+    flex-direction: column;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .highlight h3,
+  .highlight p {
+    font-size: 1rem;
+  }
+
+  .course-curriculum h2,
+  .refund-offer h2,
+  .companies h2,
+  .certificates-internships h2 {
+    font-size: 1.3rem;
+  }
+
+  .badges,
+  .buttons {
+    flex-direction: column;
+  }
+
+  .enroll-now,
+  .know-more {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .badge {
+    width: 54vw;
+  }
+
+  .company-logos .logo {
+    width: 75vw;
+    height: 50px;
+  }
+
+  .certificate-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .course-curriculum h4 {
+    width: 70vw;
+  }
+}
